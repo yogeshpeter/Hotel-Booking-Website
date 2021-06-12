@@ -23,5 +23,20 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
+  margin: 0%;
+  background-color: #e0e0e0;
 }
 /* check4 */
+header {
+  background-color: rosybrown;
+}
+footer {
+  background-color: rosybrown;
+}
+#list-view {
+  margin: 2%;
+}
+#list-view div {
+  background-color: rgb(132, 136, 139);
+  width: 40%;
+}

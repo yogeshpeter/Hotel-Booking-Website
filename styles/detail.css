@@ -23,9 +23,32 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
+  margin: 0%;
+  background-color: #e0e0e0;
 }
 #RadissonBluHotelDetails img {
   height: 500px;
   width: 500px;
+  margin-top: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+#hotelDescription {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+#DetailPaymentForm {
+  margin-bottom: 1%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 /* check4 */
+header {
+  background-color: rosybrown;
+}
+footer {
+  background-color: rosybrown;
+}
