@@ -1,31 +1,12 @@
-.logo {
-  height: 60px;
-  width: 60px;
+#description {
+  font-weight: bold;
 }
-
 /* footer css */
-.SocialMedia #media {
-  width: 22px;
-  height: 20px;
-}
+
 #adults {
   width: 150px;
 }
 
-.rootDiv {
-  height: 100%;
-  width: 100%;
-}
-html {
-  height: 100%;
-  width: 100%;
-}
-body {
-  min-height: 100%;
-  min-width: 100%;
-  margin: 0%;
-  background-color: #e0e0e0;
-}
 #RadissonBluHotelDetails img {
   height: 500px;
   width: 500px;
@@ -46,9 +27,3 @@ body {
   margin-right: 4%;
 }
 /* check4 */
-header {
-  background-color: rosybrown;
-}
-footer {
-  background-color: rosybrown;
-}

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="./styles/list.css">
+    <link rel="stylesheet" href="./styles/common.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,23 +11,25 @@
 <body>
     <div class="rootDiv">
         <header>
-       <a href="./index.html"><img class="logo" src="./assests/images/logo.png" alt="Logo"></a>
-       <a href="./login.html">Login</a>
+            <a href="./index.html"><img class="logo" src="./assests/images/logo.png" alt="Logo"></a>
+            <span><a href="./login.html">Login</a></span>
         </header>
             <content>
-                <ul>
-                    <li><a href="#list-view">List View</a></li>
-                    <li><a href="#map-view">Map View</a></li>
-                </ul>
+                    <div class="list">
+                        <div><a href="#list-view">List View</a></div>
+                        <div><a href="#map-view">Map View</a></div>
+                    </div>
                 <div id="list-view">
-                    <a href="./detail.html">
-                        <div id="RadissonBluHotel">
-                            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel">
-                            <h3>Radisson Blu Hotel</h3>
-                            <p>5 Star</p>
-                            <p>New Delhi</p>
-                        </div>
-                    </a>
+                    <div>
+                            <a href="./detail.html">
+                                <div>
+                                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel">
+                                    <h3>Radisson Blu Hotel</h3>
+                                    <p>5 Star</p>
+                                    <p>New Delhi</p>
+                                </div>
+                            </a>
+                    </div>
                     <div id="TheLalit">
                         <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="The Lalit">
                         <h3>The Lalit New Delhi</h3>
@@ -41,23 +44,30 @@
                     </div>
                 </div>
                     <div id="map-view">
-                        <div id="MapImage">
+                        <!-- <div id="MapImage">
                             <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt="Map Image">
                             <p>MAP VIEW</p>
-                         </div>
+                         </div> -->
                     </div>
                 
             </content>
             <footer>
-                <a href="./contact.html">Contact Us</a>
+                <span><a href="./contact.html">Contact Us</a></span>
+                <p>&#169; 2020 ROOM SEARCH PVT.LTD.</p>
                 <div class="SocialMedia">
-                    <a href="https://www.facebook.com" target="_blank"><img id="media" src="./assests/images/facebook.png" alt="Facebook"></a>
-                    <a href="https://www.instagram.com" target="_blank"><img id="media" src="./assests/images/instagram.png" alt="Instagram"></a>
-                    <a href="https://www.twitter.com" target="_blank"><img id="media" src="./assests/images/twitter.png" alt="Twitter"></a>
+                    <a href="https://www.facebook.com" target="_blank"><img id="media" src="./assests/images/facebook.png"
+                            alt="Facebook"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img id="media" src="./assests/images/instagram.png"
+                            alt="Instagram"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img id="media" src="./assests/images/twitter.png"
+                            alt="Twitter"></a>
                 </div>
-                <span>&#169; 2020 ROOM SEARCH PVT.LTD.</span>
             </footer>
     </div>
 </body>
 </html>
 <!-- /* check4 */ -->
+
+
+
+
