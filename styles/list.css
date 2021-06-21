@@ -22,11 +22,40 @@
 /* #list-view {
   margin: 2%;
 } */
-#list-view div {
-  background-color: rgb(132, 136, 139);
-  margin: 8%;
+#list-view .hotelContainer {
+  background-color: lightgrey;
+  margin: 10%;
 }
 #list-view img {
   height: 200px;
   width: 250px;
+}
+
+/* add some styles in list view */
+.hotelContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.hotelContainer div:nth-of-type(2) {
+  margin-left: 2%;
+}
+
+.active {
+  background-color: #007bff;
+  color: black;
+}
+.list .btn:hover {
+  background-color: #007bff;
+}
+
+#list-view div .hotelContainer:hover {
+  background-color: rosybrown;
+  text-decoration: none;
+}
+#hoverBlack:hover {
+  color: black;
+}
+#hoverImage:hover {
+  color: black;
 }

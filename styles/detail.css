@@ -1,29 +1,49 @@
-#description {
-  font-weight: bold;
-}
-/* footer css */
-
-#adults {
-  width: 150px;
-}
-
-#RadissonBluHotelDetails img {
-  height: 500px;
-  width: 500px;
-  margin-top: 2%;
-  margin-left: 4%;
-  margin-right: 4%;
-}
 #hotelDescription {
   margin-left: 4%;
   margin-right: 4%;
   margin-top: 1%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
-#DetailPaymentForm {
-  margin-bottom: 1%;
-  margin-left: 4%;
-  margin-right: 4%;
+.cursive {
+  font-family: cursive;
 }
-/* check4 */
+
+.hotelForm {
+  height: 80%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+}
+.imageDiv img {
+  height: 350px;
+  width: 600px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+}
+
+.imageDiv {
+  width: 65%;
+  border-right: 1px solid black;
+}
+.formDiv {
+  width: 35%;
+}
+.formDiv form {
+  height: 100%;
+  margin-top: 10%;
+}
+.formDiv label {
+  width: 40%;
+  margin: 3%;
+}
+.formDiv input {
+  width: 40%;
+  margin: 3%;
+}
+.formDiv button {
+  margin-top: 3%;
+  margin-left: 40%;
+}

@@ -1,3 +1,98 @@
+.logo {
+  height: 60px;
+  width: 60px;
+  margin-left: 0.5%;
+}
+
+header {
+  background-color: rosybrown;
+}
+footer {
+  background-color: rosybrown;
+}
+
+/* header and footer getting fixed css */
+.rootDiv {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: grid;
+}
+
+header {
+  grid-row: 1;
+  width: 100%;
+}
+content {
+  grid-row: 2;
+  overflow-y: auto;
+}
+
+footer {
+  grid-row: 3;
+}
+
+/* footer css */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+}
+footer div {
+  margin: 1%;
+}
+
+footer span {
+  margin: 1%;
+  margin-left: 2%;
+}
+footer p {
+  margin-top: 1%;
+}
+.SocialMedia #media {
+  width: 22px;
+  height: 20px;
+}
+
+/* header css */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header span {
+  margin-right: 2%;
+  margin-top: 1%;
+}
+header a {
+  margin-left: 1%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.rootDiv {
+  height: 100%;
+  width: 100%;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  min-height: 100%;
+  min-width: 100%;
+  background-color: #e0e0e0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Ubuntu';
@@ -62,93 +157,11 @@
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
-.logo {
-  height: 60px;
-  width: 60px;
+
+.loginButton {
+  margin: 2%;
 }
 
-header {
-  background-color: rosybrown;
-}
-footer {
-  background-color: rosybrown;
-}
-
-/* header and footer getting fixed css */
 .rootDiv {
-  height: 100%;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: grid;
-}
-
-header {
-  grid-row: 1;
-  width: 100%;
-}
-content {
-  grid-row: 2;
-  overflow-y: auto;
-}
-
-footer {
-  grid-row: 3;
-}
-
-/* footer css */
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  overflow: hidden;
-}
-footer div {
-  margin: 10px;
-}
-
-footer span {
-  margin: 10px;
-}
-footer p {
-  position: relative;
-  top: 15px;
-}
-.SocialMedia #media {
-  width: 22px;
-  height: 20px;
-}
-
-/* header css */
-
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.rootDiv span {
-  margin: 15px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-.rootDiv {
-  height: 100%;
-  width: 100%;
-}
-html {
-  height: 100%;
-  width: 100%;
-}
-body {
-  min-height: 100%;
-  min-width: 100%;
-  margin: 0%;
-  background-color: #e0e0e0;
-  font-family: 'Ubuntu', sans-serif;
+  position: absolute;
 }

@@ -11,18 +11,18 @@
   padding: 4%;
 }
 
-.SocialMedia #media {
-  width: 22px;
-  height: 20px;
+.rootDiv {
+  display: flex;
 }
-/* check4 */
 
 .searchDiv {
   height: 380px;
   background: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg')
     center/cover;
 }
-
+.search:focus {
+  outline: none;
+}
 /* searchBar getting in center css*/
 .searchDiv {
   display: flex;
@@ -48,4 +48,53 @@
   align-items: center;
   justify-content: center;
   padding: 2%;
+}
+
+.SearchImages img {
+  box-shadow: 10px 10px 10px grey;
+}
+
+/* 
+overlay effect css */
+/* .container {
+  position: relative;
+  width: 50%;
+} */
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  transform: translate(-15%, -200%);
+  -ms-transform: translate(-15%, -200%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.modal-backdrop {
+  z-index: 1040 !important;
+}
+.modal-content {
+  margin: 2px auto;
+  z-index: 1100 !important;
 }
